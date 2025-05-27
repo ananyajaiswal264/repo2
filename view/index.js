@@ -5,7 +5,8 @@ const app = express();
 
 // Set EJS as the view engine
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'view'));
+app.set('views', path.join(__dirname, 'views'));
+
 
 // Route for home page
 app.get('/', (req, res) => {
